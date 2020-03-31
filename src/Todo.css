@@ -33,3 +33,18 @@
         width: calc(100% + 1rem);
     }
 }
+
+.Todo-buttons {
+    flex-shrink: 0;
+    padding-left: 0.7em;
+}
+
+.Todo-buttons button {
+    border: none;
+    font-size: 1em;
+    margin: 0.4em;
+    background: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #fff;
+}
