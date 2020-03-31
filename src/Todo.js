@@ -1,6 +1,7 @@
 import React from 'react'
 import "./TodoList.css";
 import "./Todo.css";
+import './NewTodoForm';
 
 class Todo extends React.Component {
 
@@ -35,8 +36,8 @@ class Todo extends React.Component {
         let result;
         if (this.state.isEditing) {
             result = (
-               <div className="Todo">
-                   <form className="Todo-edit-form" onSubmit={e => this.handleUpdate(e)} onChange={e => this.handleChange(e)}>
+               <div className="NewTodoForm">
+                   <form onSubmit={e => this.handleUpdate(e)} onChange={e => this.handleChange(e)}>
                        <input type="text" name="task" value={this.state.task}/>
                        <button>Save</button>
                    </form>

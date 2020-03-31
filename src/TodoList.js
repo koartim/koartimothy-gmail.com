@@ -2,6 +2,7 @@ import React from 'react'
 import Todo from './Todo';
 import NewTodoForm from './NewTodoForm';
 import './TodoList.css';
+import './Todo.css';
 
 export class TodoList extends React.Component {
 
