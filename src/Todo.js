@@ -1,5 +1,6 @@
 import React from 'react'
 import "./TodoList.css";
+import "./Todo.css";
 
 class Todo extends React.Component {
 
